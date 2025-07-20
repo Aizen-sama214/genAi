@@ -1,1 +1,9 @@
 Knowledge/data/
+
+
+LlamaIndex/data_ingestion/venv/
+
+LangGraph/venv/
+
+
+.env
