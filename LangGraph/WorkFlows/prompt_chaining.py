@@ -1,4 +1,3 @@
-from turtle import mode
 from typing_extensions import TypedDict
 from langgraph.graph import StateGraph, START, END
 from IPython.display import Image, display
@@ -63,9 +62,6 @@ workflow.add_edge("polish_joke", END)
 
 # Compile
 chain = workflow.compile()
-
-# Show workflow
-display(Image(chain.get_graph().draw_mermaid_png()))
 
 # Invoke
 state = chain.invoke({"topic": "cats"})
