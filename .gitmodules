@@ -1,0 +1,3 @@
+[submodule "imf-gdp-explorer"]
+	path = imf-gdp-explorer
+	url = https://github.com/Aizen-sama214/imf-gdp-explorer.git
